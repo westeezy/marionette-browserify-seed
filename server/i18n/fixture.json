@@ -1,0 +1,31 @@
+{
+	"name": "Westin",
+	"app_desc": "Super opionated dawg:",
+
+	"next": "Next",
+	"finish": "Finish",
+	"home": "Home",
+
+	"header_home": "Home",
+
+	"personalinfo_heading": "Personal Information",
+	"personalinfo_name": "Name",
+	"personalinfo_age": "Age",
+
+	"contact_heading": "Contact",
+	"contact_email": "Email",
+	"contact_phone": "Phone Number",
+
+	"sign_heading": "Confirm",
+	"sign_name": "Confirm Name",
+	"sign_agree": "Type the text",
+
+	"summary_heading": "Summary",
+	"summary_name": "Name",
+	"summary_age": "Age",
+	"summary_email": "Email",
+	"sumamry_phone": "Phone",
+
+
+	"inprogress_heading": "Applications: In Progress"
+}

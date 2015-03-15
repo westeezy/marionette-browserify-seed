@@ -1,0 +1,31 @@
+<div class="page-header">
+  <h1>{{cms "inprogress_heading"}}</h1>
+</div>
+
+<div class="forms__list"></div>
+<div class="centered">
+  <a href="#enroll/application/new" class="btn btn-primary pull-right">New Application</a>
+</div>
+<div class="text-center">
+  <ul class="pagination">
+    {{#if prev}}
+      <li><a href="#applications?page={{prev}}">&laquo;</a></li>
+    {{else}}
+      <li class="disabled"><a>&laquo;</a></li>
+    {{/if}}
+
+    {{#each pages}}
+      {{#if current}}
+        <li class="active"><a>{{page}} <span class="sr-only">(current)</span></a></li>
+      {{else}}
+        <li><a href="#applications/page/{{page}}">{{page}}</a></li>
+      {{/if}}
+    {{/each}}
+
+    {{#if next}}
+      <li><a href="#applications/page/{{next}}">&raquo;</a></li>
+    {{else}}
+      <li class="disabled"><a>&raquo;</a></li>
+    {{/if}}
+  </ul>
+</div>

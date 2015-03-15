@@ -1,0 +1,35 @@
+<div class="page-header">
+  <h1>{{cms "personalinfo_heading"}}</h1>
+</div>
+
+<form class="form-horizontal well" role="form">
+  {{#if errors}}
+    <div class="alert alert-warning">
+      <ul>
+        {{#each errors}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  {{/if}}
+
+  <div class="form-group">
+    <label class="col-sm-1 control-label" for="name">{{cms "personalinfo_name"}}</label>
+    <div class="col-sm-11">
+      <input class="form-control" name="name" type="text" placeholder="Bob">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="col-sm-1 control-label" for="age">{{cms "personalinfo_age"}}</label>
+    <div class="col-sm-11">
+      <input class="form-control" name="age" type="text" placeholder="21">
+    </div>
+  </div>
+
+  <div class="form-group">
+     <div class="col-sm-offset-1 col-sm-11">
+       <button type="submit" class="btn btn-default">{{cms "next"}}</button>
+     </div>
+   </div>
+</form>
