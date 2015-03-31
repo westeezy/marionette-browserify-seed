@@ -36,6 +36,8 @@ grunt
 
 ### Validation
 
+* Convenient Validation modules for generic validations like email
+
 ## Principles
 
 ## Testing
