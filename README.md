@@ -11,6 +11,7 @@ grunt
 
 ## Build tools
 * Browserify generates two bundles - app and vendor
+* Leverage hbsfy transform for handlebars
 * Light express app for fixure data
 
 ## In depth look
@@ -26,6 +27,9 @@ grunt
 * Storage - WIP
 * Added the other components for ease to refrence with common + ability to extend extremely easily later
 
+### Util
+
+* CMS - Grab i18n content and create a handlebar helper to allow ```{{cms "content_key"}}``` in hbs files
 ### Header/Footer
 
 ### Navigation
