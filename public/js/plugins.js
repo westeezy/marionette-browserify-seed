@@ -7,7 +7,6 @@ var Bootstrap = require('bootstrap'),
 
 Backbone.$ = $; //another bit of nastiness
 
-var backboneStorage = require('backbone.storage');
 var Marionette = require('backbone.marionette');
 
 //start marionette inspector has to come before app bundle and after vendor
